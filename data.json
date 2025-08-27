@@ -1,0 +1,754 @@
+{
+    "slides": [
+        {
+            "id": 1,
+            "title": "iPhone 16",
+            "image": "https://variety.com/wp-content/uploads/2024/09/Apple-iPhone-16.png?w=1000&h=667&crop=1",
+            "description": "The iPhone 16 is the latest smartphone from Apple, featuring a sleek design and advanced technology."
+        },
+        {
+            "id": 2,
+            "title": "iOS 17",
+            "image": "https://i.blogs.es/c85493/apple-intelligence/840_560.jpeg",
+            "description": "iOS 17 is the latest version of Apple's mobile operating system, offering new features and improvements."
+        },
+        {
+            "id": 3,
+            "title": "iOS 26",
+            "image": "https://assets.thehansindia.com/h-upload/2025/06/12/1559101-ios-26-brings.webp",
+            "description": "iOS 26 is the upcoming version of Apple's mobile operating system"
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "Premium",
+            "slug": "premium",
+            "description": "Top-tier smartphones with cutting-edge technology, premium materials, and flagship features for discerning users."
+        },
+        {
+            "id": 2,
+            "name": "Flagship",
+            "slug": "flagship",
+            "description": "High-performance smartphones with powerful processors and innovative features at competitive prices."
+        },
+        {
+            "id": 3,
+            "name": "Camera Phone",
+            "slug": "camera-phone",
+            "description": "Photography-focused smartphones with advanced camera systems and professional imaging capabilities."
+        },
+        {
+            "id": 4,
+            "name": "Performance",
+            "slug": "performance",
+            "description": "High-performance smartphones optimized for gaming, multitasking, and demanding applications."
+        },
+        {
+            "id": 5,
+            "name": "Mid-Premium",
+            "slug": "mid-premium",
+            "description": "Well-balanced smartphones offering premium features at more accessible prices."
+        },
+        {
+            "id": 6,
+            "name": "Mid-Range",
+            "slug": "mid-range",
+            "description": "Affordable smartphones with solid performance and essential features for everyday use."
+        },
+        {
+            "id": 7,
+            "name": "Budget",
+            "slug": "budget",
+            "description": "Entry-level smartphones providing essential features and functionality at affordable prices."
+        }
+    ],
+    "brands": [
+        {
+            "id": 1,
+            "name": "Apple",
+            "slug": "apple",
+            "description": "American multinational technology company known for premium smartphones with iOS ecosystem integration.",
+            "logo": "https://logo.clearbit.com/apple.com"
+        },
+        {
+            "id": 2,
+            "name": "Samsung",
+            "slug": "samsung",
+            "description": "South Korean multinational conglomerate, world's largest smartphone manufacturer with diverse Android lineup.",
+            "logo": "https://logo.clearbit.com/samsung.com"
+        },
+        {
+            "id": 3,
+            "name": "OnePlus",
+            "slug": "oneplus",
+            "description": "Chinese smartphone manufacturer known for 'flagship killer' devices with OxygenOS and fast charging.",
+            "logo": "https://logo.clearbit.com/oneplus.com"
+        },
+        {
+            "id": 4,
+            "name": "Xiaomi",
+            "slug": "xiaomi",
+            "description": "Chinese electronics company offering high-value smartphones with MIUI software and competitive pricing.",
+            "logo": "https://logo.clearbit.com/mi.com"
+        },
+        {
+            "id": 5,
+            "name": "Vivo",
+            "slug": "vivo",
+            "description": "Chinese smartphone manufacturer focusing on camera technology, design aesthetics, and selfie photography.",
+            "logo": "https://logo.clearbit.com/vivo.com"
+        },
+        {
+            "id": 6,
+            "name": "Oppo",
+            "slug": "oppo",
+            "description": "Chinese smartphone manufacturer known for camera innovation, fast charging technology, and design excellence.",
+            "logo": "https://logo.clearbit.com/oppo.com"
+        },
+        {
+            "id": 7,
+            "name": "Realme",
+            "slug": "realme",
+            "description": "Chinese smartphone brand targeting young users with performance-oriented devices and aggressive pricing.",
+            "logo": "https://logo.clearbit.com/realme.com"
+        },
+        {
+            "id": 8,
+            "name": "Motorola",
+            "slug": "motorola",
+            "description": "American telecommunications company known for clean Android experience and innovative form factors.",
+            "logo": "https://logo.clearbit.com/motorola.com"
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "iPhone 16 Pro Max",
+            "category": {
+                "id": 1,
+                "name": "Premium"
+            },
+            "brand": {
+                "id": 1,
+                "name": "Apple"
+            },
+            "price": 1199,
+            "originalPrice": 1299,
+            "discount": 100,
+            "discountPercentage": 7.7,
+            "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-16-pro-max-finish-select-202409-6-9inch-naturaltitanium?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1723666530533",
+            "description": "The most advanced iPhone ever with titanium design, A18 Pro chip, and pro camera system.",
+            "inStock": true,
+            "stockCount": 25,
+            "rating": 4.8,
+            "reviewCount": 1547,
+            "releaseDate": "2024-09-20",
+            "weight": "221g",
+            "colors": [
+                "Natural Titanium",
+                "Blue Titanium",
+                "White Titanium",
+                "Black Titanium"
+            ],
+            "storage": [
+                "256GB",
+                "512GB",
+                "1TB"
+            ],
+            "warranty": "1 year",
+            "features": [
+                "6.9-inch Super Retina XDR",
+                "A18 Pro chip",
+                "Pro camera system",
+                "Titanium design",
+                "Action Button",
+                "USB-C"
+            ],
+            "specifications": {
+                "display": "6.9-inch Super Retina XDR OLED",
+                "processor": "A18 Pro chip",
+                "camera": "48MP + 12MP + 12MP",
+                "battery": "4441 mAh",
+                "os": "iOS 18"
+            }
+        },
+        {
+            "id": 2,
+            "name": "Samsung Galaxy S24 Ultra",
+            "category": {
+                "id": 1,
+                "name": "Premium"
+            },
+            "brand": {
+                "id": 2,
+                "name": "Samsung"
+            },
+            "price": 1099,
+            "originalPrice": 1199,
+            "discount": 100,
+            "discountPercentage": 8.3,
+            "image": "https://images.samsung.com/is/image/samsung/p6pim/in/2401/gallery/in-galaxy-s24-ultra-s928-sm-s928bzthins-thumb-539756222?$650_519_PNG$",
+            "description": "Ultimate Galaxy experience with S Pen, 200MP camera, and Galaxy AI features.",
+            "inStock": true,
+            "stockCount": 18,
+            "rating": 4.7,
+            "reviewCount": 2341,
+            "releaseDate": "2024-01-24",
+            "weight": "232g",
+            "colors": [
+                "Titanium Black",
+                "Titanium Gray",
+                "Titanium Violet",
+                "Titanium Yellow"
+            ],
+            "storage": [
+                "256GB",
+                "512GB",
+                "1TB"
+            ],
+            "warranty": "1 year",
+            "features": [
+                "6.8-inch Dynamic AMOLED 2X",
+                "Snapdragon 8 Gen 3",
+                "200MP camera",
+                "S Pen included",
+                "Galaxy AI",
+                "Titanium frame"
+            ],
+            "specifications": {
+                "display": "6.8-inch Dynamic AMOLED 2X",
+                "processor": "Snapdragon 8 Gen 3",
+                "camera": "200MP + 50MP + 10MP + 12MP",
+                "battery": "5000 mAh",
+                "os": "Android 14 with One UI 6.1"
+            }
+        },
+        {
+            "id": 3,
+            "name": "OnePlus 12",
+            "category": {
+                "id": 2,
+                "name": "Flagship"
+            },
+            "brand": {
+                "id": 3,
+                "name": "OnePlus"
+            },
+            "price": 799,
+            "originalPrice": 899,
+            "discount": 100,
+            "discountPercentage": 11.1,
+            "image": "https://oasis.opstatics.com/content/dam/oasis/page/2024/global/products/12/specs/Flowy_Emerald_back_with_logo.png",
+            "description": "Never Settle with flagship performance, ultra-fast charging, and premium design.",
+            "inStock": true,
+            "stockCount": 32,
+            "rating": 4.6,
+            "reviewCount": 892,
+            "releaseDate": "2024-01-23",
+            "weight": "220g",
+            "colors": [
+                "Flowy Emerald",
+                "Silky Black",
+                "Rock Gray"
+            ],
+            "storage": [
+                "256GB",
+                "512GB"
+            ],
+            "warranty": "1 year",
+            "features": [
+                "6.82-inch AMOLED",
+                "Snapdragon 8 Gen 3",
+                "100W fast charging",
+                "Hasselblad camera",
+                "OxygenOS 14",
+                "Alert Slider"
+            ],
+            "specifications": {
+                "display": "6.82-inch LTPO AMOLED",
+                "processor": "Snapdragon 8 Gen 3",
+                "camera": "50MP + 64MP + 48MP",
+                "battery": "5400 mAh",
+                "os": "OxygenOS 14 based on Android 14"
+            }
+        },
+        {
+            "id": 4,
+            "name": "Xiaomi 14 Ultra",
+            "category": {
+                "id": 3,
+                "name": "Camera Phone"
+            },
+            "brand": {
+                "id": 4,
+                "name": "Xiaomi"
+            },
+            "price": 699,
+            "originalPrice": 799,
+            "discount": 100,
+            "discountPercentage": 12.5,
+            "image": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1710153277.56734644.jpg",
+            "description": "Photography flagship with Leica camera system and exceptional performance.",
+            "inStock": true,
+            "stockCount": 15,
+            "rating": 4.5,
+            "reviewCount": 1247,
+            "releaseDate": "2024-02-25",
+            "weight": "224g",
+            "colors": [
+                "Black",
+                "White",
+                "Titanium"
+            ],
+            "storage": [
+                "512GB",
+                "1TB"
+            ],
+            "warranty": "2 years",
+            "features": [
+                "6.73-inch AMOLED",
+                "Snapdragon 8 Gen 3",
+                "Leica camera",
+                "90W charging",
+                "HyperOS",
+                "IP68 rating"
+            ],
+            "specifications": {
+                "display": "6.73-inch LTPO AMOLED",
+                "processor": "Snapdragon 8 Gen 3",
+                "camera": "50MP + 50MP + 50MP + 50MP",
+                "battery": "5300 mAh",
+                "os": "HyperOS based on Android 14"
+            }
+        },
+        {
+            "id": 5,
+            "name": "Vivo X100 Pro",
+            "category": {
+                "id": 3,
+                "name": "Camera Phone"
+            },
+            "brand": {
+                "id": 5,
+                "name": "Vivo"
+            },
+            "price": 649,
+            "originalPrice": 749,
+            "discount": 100,
+            "discountPercentage": 13.4,
+            "image": "https://www.vivo.com/content/dam/vivo/en/product/x100-pro/images/kv/X100Pro_KV_A_Meteor-Black.png",
+            "description": "Professional photography with Zeiss optics and powerful performance.",
+            "inStock": true,
+            "stockCount": 22,
+            "rating": 4.4,
+            "reviewCount": 654,
+            "releaseDate": "2024-01-08",
+            "weight": "225g",
+            "colors": [
+                "Meteor Black",
+                "Asteroid Blue",
+                "Sunrise Gold"
+            ],
+            "storage": [
+                "256GB",
+                "512GB"
+            ],
+            "warranty": "1 year",
+            "features": [
+                "6.78-inch AMOLED",
+                "Dimensity 9300",
+                "Zeiss camera",
+                "120W charging",
+                "Funtouch OS 14",
+                "IP68 rating"
+            ],
+            "specifications": {
+                "display": "6.78-inch LTPO AMOLED",
+                "processor": "MediaTek Dimensity 9300",
+                "camera": "50MP + 50MP + 50MP",
+                "battery": "5400 mAh",
+                "os": "Funtouch OS 14 based on Android 14"
+            }
+        },
+        {
+            "id": 6,
+            "name": "Oppo Find X7 Pro",
+            "category": {
+                "id": 1,
+                "name": "Premium"
+            },
+            "brand": {
+                "id": 6,
+                "name": "Oppo"
+            },
+            "price": 899,
+            "originalPrice": 999,
+            "discount": 100,
+            "discountPercentage": 10.0,
+            "image": "https://image01.oppo.com/content/dam/oppo/product-asset-library/find/find-x7-series/find-x7-pro/images/design/find-x7-pro-design-tailored-black-front-back.png",
+            "description": "Premium flagship with Hasselblad camera and elegant design.",
+            "inStock": false,
+            "stockCount": 0,
+            "rating": 4.3,
+            "reviewCount": 423,
+            "releaseDate": "2024-01-08",
+            "weight": "221g",
+            "colors": [
+                "Tailored Black",
+                "Ocean Blue",
+                "Desert Silver"
+            ],
+            "storage": [
+                "256GB",
+                "512GB"
+            ],
+            "warranty": "1 year",
+            "features": [
+                "6.82-inch AMOLED",
+                "Snapdragon 8 Gen 3",
+                "Hasselblad camera",
+                "100W charging",
+                "ColorOS 14",
+                "IP68 rating"
+            ],
+            "specifications": {
+                "display": "6.82-inch LTPO AMOLED",
+                "processor": "Snapdragon 8 Gen 3",
+                "camera": "50MP + 50MP + 50MP",
+                "battery": "5000 mAh",
+                "os": "ColorOS 14 based on Android 14"
+            }
+        },
+        {
+            "id": 7,
+            "name": "Realme GT 6",
+            "category": {
+                "id": 4,
+                "name": "Performance"
+            },
+            "brand": {
+                "id": 7,
+                "name": "Realme"
+            },
+            "price": 449,
+            "originalPrice": 549,
+            "discount": 100,
+            "discountPercentage": 18.2,
+            "image": "https://image01.realme.net/general/20240605/1717563967871.jpg.webp",
+            "description": "Flagship killer with exceptional performance and value for money.",
+            "inStock": true,
+            "stockCount": 45,
+            "rating": 4.2,
+            "reviewCount": 1893,
+            "releaseDate": "2024-06-20",
+            "weight": "199g",
+            "colors": [
+                "Fluid Silver",
+                "Razor Green",
+                "Punk Black"
+            ],
+            "storage": [
+                "256GB",
+                "512GB"
+            ],
+            "warranty": "1 year",
+            "features": [
+                "6.78-inch AMOLED",
+                "Snapdragon 8s Gen 3",
+                "120W charging",
+                "AI camera",
+                "Realme UI 5.0",
+                "Gaming optimization"
+            ],
+            "specifications": {
+                "display": "6.78-inch LTPO AMOLED",
+                "processor": "Snapdragon 8s Gen 3",
+                "camera": "50MP + 8MP + 2MP",
+                "battery": "5500 mAh",
+                "os": "Realme UI 5.0 based on Android 14"
+            }
+        },
+        {
+            "id": 8,
+            "name": "Motorola Edge 50 Ultra",
+            "category": {
+                "id": 2,
+                "name": "Flagship"
+            },
+            "brand": {
+                "id": 8,
+                "name": "Motorola"
+            },
+            "price": 599,
+            "originalPrice": 699,
+            "discount": 100,
+            "discountPercentage": 14.3,
+            "image": "https://motorolain.vtexassets.com/arquivos/ids/166007/motorola-edge-50-ultra-pdp-render-Peach-Fuzz-1-y5idr6na.png",
+            "description": "Premium experience with clean Android and versatile camera system.",
+            "inStock": true,
+            "stockCount": 28,
+            "rating": 4.1,
+            "reviewCount": 567,
+            "releaseDate": "2024-04-16",
+            "weight": "197g",
+            "colors": [
+                "Peach Fuzz",
+                "Forest Blue",
+                "Nordic Wood"
+            ],
+            "storage": [
+                "512GB",
+                "1TB"
+            ],
+            "warranty": "2 years",
+            "features": [
+                "6.7-inch pOLED",
+                "Snapdragon 8s Gen 3",
+                "125W charging",
+                "Clean Android",
+                "My UX",
+                "IP68 rating"
+            ],
+            "specifications": {
+                "display": "6.7-inch pOLED",
+                "processor": "Snapdragon 8s Gen 3",
+                "camera": "50MP + 50MP + 64MP",
+                "battery": "4500 mAh",
+                "os": "Android 14 with My UX"
+            }
+        },
+        {
+            "id": 9,
+            "name": "iPhone 15",
+            "category": {
+                "id": 5,
+                "name": "Mid-Premium"
+            },
+            "brand": {
+                "id": 1,
+                "name": "Apple"
+            },
+            "price": 799,
+            "originalPrice": 899,
+            "discount": 100,
+            "discountPercentage": 11.1,
+            "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-15-finish-select-202309-6-1inch-blue?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1692923780378",
+            "description": "Dynamic Island, 48MP main camera, and USB-C connectivity.",
+            "inStock": true,
+            "stockCount": 67,
+            "rating": 4.6,
+            "reviewCount": 3245,
+            "releaseDate": "2023-09-22",
+            "weight": "171g",
+            "colors": [
+                "Blue",
+                "Pink",
+                "Yellow",
+                "Green",
+                "Black"
+            ],
+            "storage": [
+                "128GB",
+                "256GB",
+                "512GB"
+            ],
+            "warranty": "1 year",
+            "features": [
+                "6.1-inch Super Retina XDR",
+                "A16 Bionic chip",
+                "48MP camera",
+                "USB-C",
+                "Dynamic Island",
+                "Action Mode"
+            ],
+            "specifications": {
+                "display": "6.1-inch Super Retina XDR OLED",
+                "processor": "A16 Bionic chip",
+                "camera": "48MP + 12MP",
+                "battery": "3349 mAh",
+                "os": "iOS 17"
+            }
+        },
+        {
+            "id": 10,
+            "name": "Samsung Galaxy A55",
+            "category": {
+                "id": 6,
+                "name": "Mid-Range"
+            },
+            "brand": {
+                "id": 2,
+                "name": "Samsung"
+            },
+            "price": 399,
+            "originalPrice": 449,
+            "discount": 50,
+            "discountPercentage": 11.1,
+            "image": "https://images.samsung.com/is/image/samsung/p6pim/in/2403/gallery/in-galaxy-a55-5g-a556-sm-a556elvcins-thumb-540907168?$650_519_PNG$",
+            "description": "Awesome everyday experience with great camera and long-lasting battery.",
+            "inStock": true,
+            "stockCount": 89,
+            "rating": 4.0,
+            "reviewCount": 1567,
+            "releaseDate": "2024-03-11",
+            "weight": "213g",
+            "colors": [
+                "Awesome Navy",
+                "Awesome Iceblue",
+                "Awesome Lilac",
+                "Awesome Lemon"
+            ],
+            "storage": [
+                "128GB",
+                "256GB"
+            ],
+            "warranty": "1 year",
+            "features": [
+                "6.6-inch Super AMOLED",
+                "Exynos 1480",
+                "50MP camera",
+                "5000mAh battery",
+                "One UI 6.1",
+                "IP67 rating"
+            ],
+            "specifications": {
+                "display": "6.6-inch Super AMOLED",
+                "processor": "Exynos 1480",
+                "camera": "50MP + 12MP + 5MP",
+                "battery": "5000 mAh",
+                "os": "Android 14 with One UI 6.1"
+            }
+        },
+        {
+            "id": 11,
+            "name": "Xiaomi Redmi Note 13 Pro",
+            "category": {
+                "id": 7,
+                "name": "Budget"
+            },
+            "brand": {
+                "id": 4,
+                "name": "Xiaomi"
+            },
+            "price": 299,
+            "originalPrice": 349,
+            "discount": 50,
+            "discountPercentage": 14.3,
+            "image": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1705399320.49552372.jpg",
+            "description": "Exceptional value with powerful performance and versatile camera.",
+            "inStock": true,
+            "stockCount": 156,
+            "rating": 4.3,
+            "reviewCount": 2789,
+            "releaseDate": "2024-01-15",
+            "weight": "199g",
+            "colors": [
+                "Midnight Black",
+                "Ocean Teal",
+                "Lavender Purple"
+            ],
+            "storage": [
+                "128GB",
+                "256GB"
+            ],
+            "warranty": "2 years",
+            "features": [
+                "6.67-inch AMOLED",
+                "Snapdragon 7s Gen 2",
+                "200MP camera",
+                "5000mAh battery",
+                "MIUI 14",
+                "IP54 rating"
+            ],
+            "specifications": {
+                "display": "6.67-inch AMOLED",
+                "processor": "Snapdragon 7s Gen 2",
+                "camera": "200MP + 8MP + 2MP",
+                "battery": "5000 mAh",
+                "os": "MIUI 14 based on Android 13"
+            }
+        },
+        {
+            "id": 12,
+            "name": "OnePlus Nord 4",
+            "category": {
+                "id": 6,
+                "name": "Mid-Range"
+            },
+            "brand": {
+                "id": 3,
+                "name": "OnePlus"
+            },
+            "price": 499,
+            "originalPrice": 599,
+            "discount": 100,
+            "discountPercentage": 16.7,
+            "image": "https://oasis.opstatics.com/content/dam/oasis/page/2024/global/products/nord-4/spec/Mercurial_Silver_Back_with_logo_Light.png",
+            "description": "Premium mid-range with flagship features and OxygenOS experience.",
+            "inStock": true,
+            "stockCount": 73,
+            "rating": 4.4,
+            "reviewCount": 1032,
+            "releaseDate": "2024-07-16",
+            "weight": "199.5g",
+            "colors": [
+                "Mercurial Silver",
+                "Obsidian Midnight",
+                "Oasis Green"
+            ],
+            "storage": [
+                "256GB",
+                "512GB"
+            ],
+            "warranty": "1 year",
+            "features": [
+                "6.74-inch AMOLED",
+                "Snapdragon 7+ Gen 3",
+                "100W charging",
+                "Metal unibody",
+                "OxygenOS 14.1",
+                "IP65 rating"
+            ],
+            "specifications": {
+                "display": "6.74-inch AMOLED",
+                "processor": "Snapdragon 7+ Gen 3",
+                "camera": "50MP + 8MP",
+                "battery": "5500 mAh",
+                "os": "OxygenOS 14.1 based on Android 14"
+            }
+        }
+    ],
+    "relationships": {
+        "totalProducts": 12,
+        "totalBrands": 8,
+        "totalCategories": 7,
+        "productsByBrand": {
+            "Apple": 2,
+            "Samsung": 2,
+            "OnePlus": 2,
+            "Xiaomi": 2,
+            "Vivo": 1,
+            "Oppo": 1,
+            "Realme": 1,
+            "Motorola": 1
+        },
+        "productsByCategory": {
+            "Premium": 3,
+            "Flagship": 2,
+            "Camera Phone": 2,
+            "Performance": 1,
+            "Mid-Premium": 1,
+            "Mid-Range": 2,
+            "Budget": 1
+        },
+        "priceRanges": {
+            "budget": "$299 - $399",
+            "midRange": "$400 - $699",
+            "premium": "$700 - $999",
+            "luxury": "$1000+"
+        },
+        "lastUpdated": "2024-12-27",
+        "dataVersion": "2.0"
+    }
+}
