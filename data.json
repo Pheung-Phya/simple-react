@@ -19,6 +19,7 @@
             "description": "iOS 26 is the upcoming version of Apple's mobile operating system"
         }
     ],
+
     "categories": [
         {
             "id": 1,
@@ -63,6 +64,7 @@
             "description": "Entry-level smartphones providing essential features and functionality at affordable prices."
         }
     ],
+
     "brands": [
         {
             "id": 1,
@@ -121,6 +123,7 @@
             "logo": "https://logo.clearbit.com/motorola.com"
         }
     ],
+
     "products": [
         {
             "id": 1,
@@ -718,37 +721,6 @@
                 "os": "OxygenOS 14.1 based on Android 14"
             }
         }
-    ],
-    "relationships": {
-        "totalProducts": 12,
-        "totalBrands": 8,
-        "totalCategories": 7,
-        "productsByBrand": {
-            "Apple": 2,
-            "Samsung": 2,
-            "OnePlus": 2,
-            "Xiaomi": 2,
-            "Vivo": 1,
-            "Oppo": 1,
-            "Realme": 1,
-            "Motorola": 1
-        },
-        "productsByCategory": {
-            "Premium": 3,
-            "Flagship": 2,
-            "Camera Phone": 2,
-            "Performance": 1,
-            "Mid-Premium": 1,
-            "Mid-Range": 2,
-            "Budget": 1
-        },
-        "priceRanges": {
-            "budget": "$299 - $399",
-            "midRange": "$400 - $699",
-            "premium": "$700 - $999",
-            "luxury": "$1000+"
-        },
-        "lastUpdated": "2024-12-27",
-        "dataVersion": "2.0"
-    }
+    ]
+   
 }
