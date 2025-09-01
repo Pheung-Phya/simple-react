@@ -165,7 +165,7 @@ const products = [
 const ProductPage = () => {
 
   return (
-    <div className="container-fluid px-4">
+    <div className=" px-4">
       <section className="mt-5 mb-4">
         <div className="d-flex justify-content-between align-items-center bg-light p-3 rounded shadow-sm">
           <h2 className="mb-0 text-primary">All Products</h2>
