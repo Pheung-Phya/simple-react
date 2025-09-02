@@ -1,4 +1,3 @@
-import React from 'react';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import Master from './layouts/Master';
 import HomePage from './pages/homePage/views/HomePage';
