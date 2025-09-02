@@ -128,6 +128,7 @@
         {
             "id": 1,
             "name": "iPhone 16 Pro Max",
+            "slug": "iphone-16-pro-max",
             "category": {
                 "id": 1,
                 "name": "Premium"
@@ -179,6 +180,7 @@
         {
             "id": 2,
             "name": "Samsung Galaxy S24 Ultra",
+            "slug": "samsung-galaxy-s24-ultra",
             "category": {
                 "id": 1,
                 "name": "Premium"
@@ -230,6 +232,7 @@
         {
             "id": 3,
             "name": "OnePlus 12",
+            "slug": "oneplus-12",
             "category": {
                 "id": 2,
                 "name": "Flagship"
@@ -279,6 +282,7 @@
         {
             "id": 4,
             "name": "Xiaomi 14 Ultra",
+            "slug": "xiaomi-14-ultra",
             "category": {
                 "id": 3,
                 "name": "Camera Phone"
@@ -328,6 +332,7 @@
         {
             "id": 5,
             "name": "Vivo X100 Pro",
+            "slug": "vivo-x100-pro",
             "category": {
                 "id": 3,
                 "name": "Camera Phone"
@@ -377,6 +382,7 @@
         {
             "id": 6,
             "name": "Oppo Find X7 Pro",
+            "slug": "oppo-find-x7-pro",
             "category": {
                 "id": 1,
                 "name": "Premium"
@@ -426,6 +432,7 @@
         {
             "id": 7,
             "name": "Realme GT 6",
+            "slug": "realme-gt-6",
             "category": {
                 "id": 4,
                 "name": "Performance"
@@ -475,6 +482,7 @@
         {
             "id": 8,
             "name": "Motorola Edge 50 Ultra",
+            "slug": "motorola-edge-50-ultra",
             "category": {
                 "id": 2,
                 "name": "Flagship"
@@ -524,6 +532,7 @@
         {
             "id": 9,
             "name": "iPhone 15",
+            "slug": "iphone-15",
             "category": {
                 "id": 5,
                 "name": "Mid-Premium"
@@ -576,6 +585,7 @@
         {
             "id": 10,
             "name": "Samsung Galaxy A55",
+            "slug": "samsung-galaxy-a55",
             "category": {
                 "id": 6,
                 "name": "Mid-Range"
@@ -626,6 +636,7 @@
         {
             "id": 11,
             "name": "Xiaomi Redmi Note 13 Pro",
+            "slug": "xiaomi-redmi-note-13-pro",
             "category": {
                 "id": 7,
                 "name": "Budget"
@@ -675,6 +686,7 @@
         {
             "id": 12,
             "name": "OnePlus Nord 4",
+            "slug": "oneplus-nord-4",
             "category": {
                 "id": 6,
                 "name": "Mid-Range"
