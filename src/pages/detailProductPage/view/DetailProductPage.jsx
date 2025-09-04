@@ -1,62 +1,13 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Header from '../components/Header'
 import Detail from '../components/details/Detail'
 import Description from '../components/details/Description'
 import RelatedProduct from '../components/RelatedProduct'
 import Footer from '../components/Footer'
+import axios from 'axios'
+import { useParams } from 'react-router-dom'
 
-const product = {
-    "id": 1,
-    "name": "iPhone 16 Pro Max",
-    "slug": "iphone-16-pro-max",
-    "category": {
-        "id": 1,
-        "name": "Premium"
-    },
-    "brand": {
-        "id": 1,
-        "name": "Apple"
-    },
-    "price": 1199,
-    "originalPrice": 1299,
-    "discount": 100,
-    "discountPercentage": 7.7,
-    "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-16-pro-max-finish-select-202409-6-9inch-naturaltitanium?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1723666530533",
-    "description": "The most advanced iPhone ever with titanium design, A18 Pro chip, and pro camera system.",
-    "inStock": true,
-    "stockCount": 25,
-    "rating": 4.8,
-    "reviewCount": 1547,
-    "releaseDate": "2024-09-20",
-    "weight": "221g",
-    "colors": [
-        "Natural Titanium",
-        "Blue Titanium",
-        "White Titanium",
-        "Black Titanium"
-    ],
-    "storage": [
-        "256GB",
-        "512GB",
-        "1TB"
-    ],
-    "warranty": "1 year",
-    "features": [
-        "6.9-inch Super Retina XDR",
-        "A18 Pro chip",
-        "Pro camera system",
-        "Titanium design",
-        "Action Button",
-        "USB-C"
-    ],
-    "specifications": {
-        "display": "6.9-inch Super Retina XDR OLED",
-        "processor": "A18 Pro chip",
-        "camera": "48MP + 12MP + 12MP",
-        "battery": "4441 mAh",
-        "os": "iOS 18"
-    }
-}
+
 
 
 const products = [
@@ -267,6 +218,26 @@ const products = [
 ]
 
 const DetailProductPage = () => {
+
+  const [product, setProduct] = useState({})
+  const { slug } = useParams();
+  
+  const fetchProductWithSlug = async () => {
+    try {
+      const response = await axios.get(`http://localhost:3000/products?slug=${slug}`);
+      if (response.status == 200) {
+        setProduct(response.data[0])
+      }
+    } catch (error) {
+      console.log(error)
+    }
+  }
+
+
+  useEffect(() => {
+    fetchProductWithSlug();
+  },[])
+
   return (
     <div className="container-fluid px-3 py-4">
       
