@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 const Brand = ({brands}) => {
   return (
         <div className="row">
@@ -5,9 +7,9 @@ const Brand = ({brands}) => {
             {
                 brands.map((value, index) => {
                     return (
-                        <div className="col " key={index}>
+                        <Link className="col " key={index}>
                             <img className="w-100 rounded-3 border" src={value.logo} alt={value.name} height="150" />
-                        </div>
+                        </Link>
                     )
                 })
             }

@@ -1,11 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const RelatedProduct = ({products}) => {
     return (
         <div>
             <div className="d-flex justify-content-between align-items-center mb-4">
                 <h3 className="mb-0">Related Products</h3>
-                <button className="btn btn-outline-primary">View All</button>
+                <Link className="btn btn-outline-primary" to={`/products`}>View All</Link>
             </div>
             <div className="row g-4">
                 {

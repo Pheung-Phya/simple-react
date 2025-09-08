@@ -135,7 +135,8 @@
             },
             "brand": {
                 "id": 1,
-                "name": "Apple"
+                "name": "Apple",
+                "slug": "apple"
             },
             "price": 1199,
             "originalPrice": 1299,
@@ -187,7 +188,8 @@
             },
             "brand": {
                 "id": 2,
-                "name": "Samsung"
+                "name": "Samsung",
+                "slug": "samsung"
             },
             "price": 1099,
             "originalPrice": 1199,
@@ -239,7 +241,8 @@
             },
             "brand": {
                 "id": 3,
-                "name": "OnePlus"
+                "name": "OnePlus",
+                "slug": "oneplus"
             },
             "price": 799,
             "originalPrice": 899,
@@ -289,7 +292,8 @@
             },
             "brand": {
                 "id": 4,
-                "name": "Xiaomi"
+                "name": "Xiaomi",
+                "slug": "xiaomi"
             },
             "price": 699,
             "originalPrice": 799,
@@ -339,7 +343,8 @@
             },
             "brand": {
                 "id": 5,
-                "name": "Vivo"
+                "name": "Vivo",
+                "slug": "vivo"
             },
             "price": 649,
             "originalPrice": 749,
@@ -389,7 +394,8 @@
             },
             "brand": {
                 "id": 6,
-                "name": "Oppo"
+                "name": "Oppo",
+                "slug": "oppo"
             },
             "price": 899,
             "originalPrice": 999,
@@ -439,7 +445,8 @@
             },
             "brand": {
                 "id": 7,
-                "name": "Realme"
+                "name": "Realme",
+                "slug": "realme"
             },
             "price": 449,
             "originalPrice": 549,
@@ -489,7 +496,8 @@
             },
             "brand": {
                 "id": 8,
-                "name": "Motorola"
+                "name": "Motorola",
+                "slug": "motorola"
             },
             "price": 599,
             "originalPrice": 699,
@@ -539,7 +547,8 @@
             },
             "brand": {
                 "id": 1,
-                "name": "Apple"
+                "name": "Apple",
+                "slug": "apple"
             },
             "price": 799,
             "originalPrice": 899,
@@ -592,7 +601,8 @@
             },
             "brand": {
                 "id": 2,
-                "name": "Samsung"
+                "name": "Samsung",
+                "slug": "samsung"
             },
             "price": 399,
             "originalPrice": 449,
@@ -643,7 +653,8 @@
             },
             "brand": {
                 "id": 4,
-                "name": "Xiaomi"
+                "name": "Xiaomi",
+                "slug": "xiaomi"
             },
             "price": 299,
             "originalPrice": 349,
@@ -693,7 +704,8 @@
             },
             "brand": {
                 "id": 3,
-                "name": "OnePlus"
+                "name": "OnePlus",
+                "slug": "oneplus"
             },
             "price": 499,
             "originalPrice": 599,

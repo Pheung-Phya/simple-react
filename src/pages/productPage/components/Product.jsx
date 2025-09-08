@@ -30,7 +30,7 @@ const Product = ({products}) => {
                                           <span className="fw-semibold">{value.rating}</span>
                                           <span className="text-muted ms-1">({value.reviewCount})</span>
                                       </div>
-                                      <Link className="btn btn-primary w-100" to={`/product/${value.slug}`}>View Details</Link>
+                                      <Link className="btn btn-primary w-100" to={`/product/${value.brand.slug}/${value.slug}`}>View Details</Link>
                                   </div>
                               </div>
                           </div>
