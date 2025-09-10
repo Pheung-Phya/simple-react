@@ -1,6 +1,17 @@
 import React, { useEffect, useState } from 'react'
 
-const Slide = ({ slides }) => {
+type SlideItem = {
+    id: string | number;
+    image: string;
+    title: string;
+    description: string;
+};
+
+interface SlideProps {
+    slides: SlideItem[];
+}
+
+const Slide: React.FC<SlideProps> = ({ slides }) => {
     const [activeIndex, setActiveIndex] = useState(0);
 
     useEffect(() => {
@@ -11,7 +22,7 @@ const Slide = ({ slides }) => {
         return () => clearInterval(interval);
     }, [slides.length]);
 
-    const goToSlide = (index) => {
+    const goToSlide = (index: number) => {
         setActiveIndex(index);
     };
 
@@ -92,7 +103,7 @@ const Slide = ({ slides }) => {
                 <span className="visually-hidden">Next</span>
             </button>
 
-            <style jsx>{`
+            <style>{`
                 .hero-carousel {
                     height: 70vh;
                 }

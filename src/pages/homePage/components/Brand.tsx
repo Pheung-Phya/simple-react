@@ -1,6 +1,18 @@
 import { Link } from "react-router-dom"
 
-const Brand = ({brands}) => {
+interface BrandType {
+    slug: string;
+    logo: string;
+    name: string;
+}
+
+
+
+interface BrandProps {
+    brands: BrandType[];
+}
+
+const Brand: React.FC<BrandProps> = ({ brands }) => {
   return (
         <div className="row">
 

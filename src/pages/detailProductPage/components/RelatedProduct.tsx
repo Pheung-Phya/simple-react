@@ -1,7 +1,24 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const RelatedProduct = ({products}) => {
+type Product = {
+    id: number;
+    name: string;
+    image: string;
+    description: string;
+    price: number;
+    originalPrice: number;
+    discount: number;
+    discountPercentage: number;
+    rating: number;
+    reviewCount: number;
+};
+
+interface RelatedProductProps {
+    products: Product[];
+}
+
+const RelatedProduct: React.FC<RelatedProductProps> = ({ products }) => {
     return (
         <div>
             <div className="d-flex justify-content-between align-items-center mb-4">

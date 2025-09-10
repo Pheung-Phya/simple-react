@@ -1,6 +1,16 @@
 import React from 'react'
 
-const Header = ({brands}) => {
+type Brand = {
+    id: string | number;
+    slug: string;
+    name: string;
+};
+
+interface HeaderProps {
+    brands: Brand[];
+}
+
+const Header: React.FC<HeaderProps> = ({brands}) => {
   return (
       <div className="d-flex justify-content-between align-items-center bg-light p-3 rounded shadow-sm">
           <h2 className="mb-0 text-primary">All Products</h2>

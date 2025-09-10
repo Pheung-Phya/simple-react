@@ -1,6 +1,15 @@
 import React from 'react'
 
-const Description = ({product}) => {
+interface Product {
+  description: string;
+  specifications?: Record<string, string>;
+}
+
+interface DescriptionProps {
+  product: Product;
+}
+
+const Description: React.FC<DescriptionProps> = ({ product }) => {
   return (
       <div className="row">
           <div className="col-12">

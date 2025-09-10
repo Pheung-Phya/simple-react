@@ -1,7 +1,28 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Product = ({products}) => {
+type ProductType = {
+    id: number;
+    name: string;
+    description: string;
+    image: string;
+    discount: number;
+    discountPercentage: number;
+    price: number;
+    originalPrice: number;
+    rating: number;
+    reviewCount: number;
+    brand: {
+        slug: string;
+    };
+    slug: string;
+};
+
+interface ProductProps {
+    products: ProductType[];
+}
+
+const Product: React.FC<ProductProps> = ({ products }) => {
   return (
       <div className="row g-4">
           {

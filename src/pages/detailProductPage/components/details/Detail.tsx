@@ -1,6 +1,23 @@
 import React from 'react'
 
-const Detail = ({product}) => {
+interface Product {
+    image: string;
+    name: string;
+    reviewCount: number;
+    price: number;
+    originalPrice: number;
+    discountPercentage: number;
+    colors?: string[];
+    storage?: string[];
+    stockCount: number;
+    features?: string[];
+}
+
+interface DetailProps {
+    product: Product;
+}
+
+const Detail: React.FC<DetailProps> = ({ product }) => {
   return (
       <div className="row">
           {/* Product Images */}
