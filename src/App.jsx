@@ -9,7 +9,8 @@ const App = () => {
       <Routes>
         <Route  element={<Master />} >
           <Route index element={<HomePage />} />
-          <Route path='/products' element={<ProductPage />} />
+          
+          <Route path='/products/:brandSlug' element={<ProductPage />} />
           <Route path='/product/:brandSlug/:productSlug' element={<DetailProductPage/>} />
         </Route>
       </Routes>

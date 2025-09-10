@@ -7,7 +7,7 @@ const Brand = ({brands}) => {
             {
                 brands.map((value, index) => {
                     return (
-                        <Link className="col " key={index}>
+                        <Link className="col " to={`/products/${value.slug}`} key={index}>
                             <img className="w-100 rounded-3 border" src={value.logo} alt={value.name} height="150" />
                         </Link>
                     )

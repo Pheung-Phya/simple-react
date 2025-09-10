@@ -2,14 +2,17 @@ import { useEffect, useState } from "react"
 import Header from "../components/Header"
 import Product from "../components/Product"
 import axios from "axios"
-
+import { useParams } from 'react-router-dom'
 
 const ProductPage = () => {
 
   const [brands, setBrands] = useState([]);
   const [products, setProducts] = useState([]);
 
+  const { brandSlug } = useParams();
+
   const fetchBrandsAPI = async () => {
+
     try {
       let response = await axios.get("http://localhost:3000/brands");
       if (response.status == 200) {
@@ -22,7 +25,16 @@ const ProductPage = () => {
 
   const fetchProductsAPI = async () => {
     try {
-      let response = await axios.get("http://localhost:3000/products");
+
+      let response;
+
+      if ( brandSlug === "all") {
+         response = await axios.get(`http://localhost:3000/products`);
+      } else {
+        response = await axios.get(`http://localhost:3000/products?brand.slug=${brandSlug}`);
+      }
+      
+      
       if (response.status == 200) {
         setProducts(response.data)
       }
