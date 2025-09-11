@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 import Header from "../components/Header"
 import Product from "../components/Product"
 import axios from "axios"
-import { useParams } from 'react-router-dom'
+import { useParams, useNavigate } from 'react-router-dom'
 
 const ProductPage = () => {
 
@@ -11,6 +11,8 @@ const ProductPage = () => {
 
   const { brandSlug } = useParams();
 
+
+  
   const fetchBrandsAPI = async () => {
 
     try {
@@ -33,8 +35,8 @@ const ProductPage = () => {
       } else {
         response = await axios.get(`http://localhost:3000/products?brand.slug=${brandSlug}`);
       }
-      
-      
+
+
       if (response.status == 200) {
         setProducts(response.data)
       }
@@ -45,8 +47,11 @@ const ProductPage = () => {
 
   useEffect(() => {
     fetchBrandsAPI();
-    fetchProductsAPI();
   } , [])
+
+  useEffect(() => {
+    fetchProductsAPI();
+  }, [brandSlug])
 
   return (
     <div className=" px-4">
